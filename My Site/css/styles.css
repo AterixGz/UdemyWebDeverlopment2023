@@ -1,0 +1,33 @@
+/*****tag*****/
+body {
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+/*****class*****/
+.top-container {
+    background-color: #B0DAFF;
+    border: solid 10px;
+    padding: 20px;
+}
+
+.bottom-container {
+    background-color: blue;
+    border: solid 10px;
+    margin-left: 500px;
+    
+}
+
+.middle-container {
+    background-color: red;
+    border: solid 20px;
+    margin-left: 260px;
+}
