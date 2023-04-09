@@ -5,29 +5,53 @@ body {
 
 h1 {
     margin: 0px;
+    background-color: aliceblue;
+    display: inline;
+    width: 100px;
 }
 
-div {
-    width: 200px;
-    height: 200px;
+p {
+    background-color: red;
+    display: inline;
 }
 
 /*****class*****/
-.top-container {
-    background-color: #B0DAFF;
-    border: solid 10px;
-    padding: 20px;
-}
 
-.bottom-container {
-    background-color: blue;
-    border: solid 10px;
-    margin-left: 500px;
+
+.container {
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+    opacity: 50%;
+    position: relative;
     
 }
 
-.middle-container {
-    background-color: red;
-    border: solid 20px;
-    margin-left: 260px;
+.top-container {
+    background-color: #B0DAFF;
 }
+
+
+.mountain {
+    display: block;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.red {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    
+}
+ .yellow {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    top: 0;
+ }
