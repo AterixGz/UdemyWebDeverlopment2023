@@ -1,0 +1,38 @@
+body {
+    background-color: #FFD3D3;
+}
+
+h1 {
+    color: red;
+}
+
+h1:hover {
+    color: yellow;
+    transition: 5s;
+}
+
+img {
+    background-color: #cbefff;
+}
+
+/*********************class************************/
+
+.text {
+    color: blue;
+}
+.text:hover {
+    background-color: rgb(255, 105, 105);
+    transition: 5s;
+}
+
+/*********************ids************************/
+
+#bacon:hover {
+    background-color: rgb(255, 105, 105);
+    transition: 0.5s;
+}
+
+#broccoli:hover {
+    background-color: rgb(255, 105, 105);
+    transition: 0.5s;
+}
