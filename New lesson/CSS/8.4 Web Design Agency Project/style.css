@@ -1,0 +1,79 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+div > h1 {
+  width: 800px;
+}
+
+div > h1 > span {
+  color: #191970;
+}
+
+.tile-image {
+  width: 300px;
+  float: left;
+  margin-right: 50px;
+}
+
+.left {
+  width: 48%;
+  float: left;
+}
+.right {
+  width: 48%;
+  float: right;
+}
+
+@media screen and (max-width: 800px) {
+  .left {
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  .right {
+    float: left;
+    clear: left;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .left {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    clear: both;
+  }
+  .right {
+    float: left;
+    clear: left;
+  }
+  .WeareCreative {
+    width: 500px;
+  }
+  .tile-image {
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  .card > h2, p {
+    clear: both;
+  }
+}
