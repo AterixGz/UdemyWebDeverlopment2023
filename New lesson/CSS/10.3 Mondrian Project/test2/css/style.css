@@ -1,0 +1,50 @@
+.container {
+    background-color: black;
+    display: grid;
+    width: 1070px;
+    height: 1070px;
+    gap: 10px;
+    /* padding: 10px; */
+    grid-template: repeat(18 , 50px) / repeat(18 , 50px);
+}
+
+.container *{
+    background-color: grey;
+}
+
+.rowspan2 {
+    grid-row: span 2;
+}
+.rowspan2 {
+    grid-row: span 2;
+}
+.columnspan2 {
+    grid-column: span 2;
+}
+.columnspan3 {
+    grid-column: span 3;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.gainsboro {
+    background-color: gainsboro;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
