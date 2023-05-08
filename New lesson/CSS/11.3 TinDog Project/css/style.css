@@ -36,7 +36,7 @@
 
 .title {
   width: 100%;
-  height: 800px;
+  height: 750px;
 }
 
 .flex-container {
@@ -48,14 +48,12 @@
   position: relative;
 }
 
-/* .dogphoneimg {
+.absolutecontent {
   position: absolute;
+  top: 0;
   bottom: 0;
-} */
-/* .dog-img-phone {
-  float: right;
 }
 
-.fleft {
-  clear: left;
-} */
+#testimonial > div {
+  background-color: light;
+}
