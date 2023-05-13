@@ -12,3 +12,26 @@ body>header {
 .titlename {
     color: rgb(167, 72, 196);
 }
+
+.arrowspurple {
+    width: 4rem;
+}
+
+.GetInTouch {
+    background: rgb(244, 208, 255);
+    background: linear-gradient(0deg, rgba(244, 208, 255, 1) 0%, rgba(251, 239, 255, 1) 24%, rgba(253, 247, 255, 1) 49%, rgba(255, 255, 255, 1) 100%);
+}
+
+.GetInTouch>div>button {
+    background: rgb(206, 141, 232);
+    background: linear-gradient(0deg, rgba(206, 141, 232, 1) 0%, rgba(236, 176, 255, 1) 24%, rgba(241, 202, 255, 1) 49%, rgba(250, 223, 255, 1) 100%);
+}
+
+footer>div>button:hover {
+    background: rgb(201,77,255);
+background: linear-gradient(0deg, rgba(201,77,255,1) 0%, rgba(227,138,255,1) 24%, rgba(232,168,255,1) 49%, rgba(246,193,255,1) 100%);
+}
+
+.lastfooter {
+    background-color: rgba(244, 208, 255, 1);
+}
